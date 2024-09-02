@@ -44,13 +44,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link> */}
 
-              <a href="https://sites.google.com/view/quadsec/home?authuser=0" target={"_blank"} rel="noreferrer">
-                <div
-                  // onClick={}
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-30 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
-              </a>
+        
 
               <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
@@ -100,11 +94,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Typescript</span>
                 <span className="pr-4 z-10">Kubernetes</span>
               </ul>
-              <div className="z-10 flex fle-row space-x-5 ">
-                <a href="https://sites.google.com/view/quadsec/home?authuser=0" target={"_blank"} rel="noreferrer">
-                  <ExternalLink url={""} router={router} />
-                </a>
-              </div>
+             
             </div>
           </div>
         </div>
